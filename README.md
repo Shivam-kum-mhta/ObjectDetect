@@ -19,9 +19,9 @@ This project is designed to detect objects in images and videos using the YOLOv1
 
 1. *Clone the Repository*
 
-   bash
+   ```bash
    git clone [https://github.com/Shivam-kum-mhta/ObjectDetect.git](https://github.com/Shivam-kum-mhta/ObjectDetect.git)
-   cd object-detection-project
+   ```
    
 
 2. *Create and Activate a Virtual Environment*

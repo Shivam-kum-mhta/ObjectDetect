@@ -85,10 +85,6 @@ This project is designed to detect objects in images and videos using the YOLOv1
 
    The server allows cross-origin requests from any origin.
    
-## Testing
-
-You can test the API using tools like Postman or CURL, or by integrating it with a frontend application.
-
 
 ## Contributing
 

@@ -26,24 +26,24 @@ This project is designed to detect objects in images and videos using the YOLOv1
 
 2. *Create and Activate a Virtual Environment*
 
-   bash
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   
+   ```
 
 3. *Install Dependencies*
 
-   bash
+   ```bash
    pip install -r requirements.txt
-   
+   ```
 
 ## Usage
 
 1. *Start the Server*
 
-   bash
+   ```bash
    uvicorn main:app --host 127.0.0.1 --port 8002
-   
+   ```
 
 2. *Endpoints*
 

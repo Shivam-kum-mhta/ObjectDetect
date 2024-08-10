@@ -26,7 +26,7 @@ app.add_middleware(
 )
 
 
-def detection(input_video_path: str) -> str:
+def video_detection(input_video_path: str) -> str:
     count = 0
 
     # Open the video
@@ -158,7 +158,7 @@ async def upload_video(file: UploadFile = File(...)):
         shutil.copyfileobj(file.file, buffer)
 
     # Process the video and get the output file path
-    output_file_path = detection(str(file_path))
+    output_file_path = video_detection(str(file_path))
 
     # Return the processed file as a downloadable response
     return FileResponse(output_file_path, media_type="video/mp4", filename=file.filename)

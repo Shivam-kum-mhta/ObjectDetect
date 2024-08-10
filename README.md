@@ -5,6 +5,16 @@ ObjectDetect is a versatile object detection system designed to provide accurate
 
 This project is designed to detect objects in images and videos using the YOLOv10 model. The backend is built using FastAPI, and it provides endpoints to upload images and videos for processing. The processed files are then made available for download.
 
+
+## Problem Statement
+In today's fast-paced world, there is a growing need for applications
+        that can provide real-time situational awareness in various fields such
+        as security, healthcare, retail, and transportation. Object detection
+        technology, powered by Convolutional Neural Networks (CNNs), has the
+        potential to revolutionize these fields by identifying and classifying
+        objects in real-time, thereby enhancing decision-making and operational
+        efficiency.
+        
 ## Features
 
 - *Image Detection*: Upload an image to get object detection results with bounding boxes.
@@ -28,7 +38,7 @@ This project is designed to detect objects in images and videos using the YOLOv1
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   venv\Scripts\activate   # On Windows, use `source venv/bin/activate`
    ```
 
 3. *Install Dependencies*
@@ -42,10 +52,16 @@ This project is designed to detect objects in images and videos using the YOLOv1
 1. *Start the Server*
 
    ```bash
-   uvicorn main:app --host 127.0.0.1 --port 8002
+        python app.py
    ```
+2. *Start Frontend*
+```bash
+   cd frontend
+   npm i
+   npm run dev
+```
 
-2. *Endpoints*
+### Endpoints
 
    - *Upload Image*
 
@@ -80,8 +96,7 @@ This project is designed to detect objects in images and videos using the YOLOv1
      - *200 OK*: Returns a JSON object with a success message and the output file path.
      - *400 Bad Request*: Invalid video format.
      - *500 Internal Server Error*: Issues with file processing.
-
-3. *CORS Configuration*
+### CORS Configuration 
 
    The server allows cross-origin requests from any origin.
    

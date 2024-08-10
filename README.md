@@ -28,7 +28,7 @@ This project is designed to detect objects in images and videos using the YOLOv1
 
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   venv\Scripts\activate   # On Windows, use `source venv/bin/activate`
    ```
 
 3. *Install Dependencies*
@@ -42,10 +42,16 @@ This project is designed to detect objects in images and videos using the YOLOv1
 1. *Start the Server*
 
    ```bash
-   uvicorn main:app --host 127.0.0.1 --port 8002
+  python app.py
    ```
+2. *Start Frontend*
+```bash
+   cd frontend
+   npm i
+   npm run dev
+```
 
-2. *Endpoints*
+### Endpoints
 
    - *Upload Image*
 
@@ -80,8 +86,7 @@ This project is designed to detect objects in images and videos using the YOLOv1
      - *200 OK*: Returns a JSON object with a success message and the output file path.
      - *400 Bad Request*: Invalid video format.
      - *500 Internal Server Error*: Issues with file processing.
-
-3. *CORS Configuration*
+### CORS Configuration 
 
    The server allows cross-origin requests from any origin.
    

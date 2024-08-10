@@ -1,6 +1,9 @@
 # ObjectDetect
 ObjectDetect is a versatile object detection system designed to provide accurate recognition of objects in both real-time and static images  utilizing cutting-edge convolutional neural networks (CNNs)
 
+![pic1](images/Screenshot 2024-08-11 003231.png)
+![pic2](images/Screenshot 2024-08-11 003231.png)
+
 ## Overview
 
 This project is designed to detect objects in images and videos using the YOLOv10 model. The backend is built using FastAPI, and it provides endpoints to upload images and videos for processing. The processed files are then made available for download.

@@ -42,7 +42,7 @@ This project is designed to detect objects in images and videos using the YOLOv1
 1. *Start the Server*
 
    ```bash
-  python app.py
+        python app.py
    ```
 2. *Start Frontend*
 ```bash

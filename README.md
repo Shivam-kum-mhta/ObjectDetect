@@ -1,8 +1,8 @@
 # ObjectDetect
 ObjectDetect is a versatile object detection system designed to provide accurate recognition of objects in both real-time and static images  utilizing cutting-edge convolutional neural networks (CNNs)
 
-![pic1](images/Screenshot 2024-08-11 003231.png)
-![pic2](images/Screenshot 2024-08-11 003231.png)
+![pic1](https://github.com/Shivam-kum-mhta/ObjectDetect/blob/main/images/Screenshot%202024-08-10%20225511.png)
+![pic2](https://github.com/Shivam-kum-mhta/ObjectDetect/blob/main/images/Screenshot%202024-08-11%20003231.png)
 
 ## Overview
 

@@ -26,7 +26,7 @@ In today's fast-paced world, there is a growing need for applications
 
 ## Prerequisites
 
-- Python 3.8 or higher
+- Python 3.10 or higher . We worked on Python 3.10.0
 - pip for Python package management
 
 ## Installation
